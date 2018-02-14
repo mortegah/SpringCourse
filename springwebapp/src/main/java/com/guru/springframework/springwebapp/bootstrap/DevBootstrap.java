@@ -34,20 +34,20 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent>{
         Book ddd = new Book("Doma Dri De", "1234", harper);
         eric.getBooks().add(ddd);
         ddd.getAuthors().add(eric);
-
+        publisherRepository.save(harper);
         authorRepository.save(eric);
         bookRepository.save(ddd);
-        publisherRepository.save(harper);
+
 
 
         Author rod = new Author("Rod", "Johnson");
         Publisher worx = new Publisher("Worx", "trelere");
         Book noEJB = new Book("J2EE Development without EJB", "23444", worx);
         rod.getBooks().add(noEJB);
-
+        publisherRepository.save(worx);
         authorRepository.save(rod);
         bookRepository.save(noEJB);
-        publisherRepository.save(worx);
+
 
     }
 
