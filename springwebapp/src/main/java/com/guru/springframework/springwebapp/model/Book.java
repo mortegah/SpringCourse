@@ -20,7 +20,7 @@ public class Book {
     private String title;
     private String isbn;
 
-    @OneToOne(mappedBy = "book")
+    @OneToOne
     private Publisher publisher;
 
     @ManyToMany
@@ -29,11 +29,6 @@ public class Book {
     private Set<Author> authors = new HashSet<>();
 
     public Book() {
-    }
-
-    public Book(String title, String isbn) {
-        this.title = title;
-        this.isbn = isbn;
     }
 
     public Book(String title, String isbn, Publisher publisher) {
