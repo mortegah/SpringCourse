@@ -9,8 +9,9 @@ import static org.junit.Assert.assertEquals;
 public class SetterInjectedControllerTest {
 
     private SetterInjectedController setterInjectedController;
+
     @Before
-    private void setUp(){
+    public void setUp() throws Exception {
         this.setterInjectedController = new SetterInjectedController();
         this.setterInjectedController.setGreetingService(new GreetingServiceImpl());
     }
