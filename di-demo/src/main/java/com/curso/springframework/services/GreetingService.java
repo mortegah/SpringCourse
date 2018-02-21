@@ -1,4 +1,4 @@
-package com.curso.springframework.didemo.services;
+package com.curso.springframework.services;
 
 public interface GreetingService {
 

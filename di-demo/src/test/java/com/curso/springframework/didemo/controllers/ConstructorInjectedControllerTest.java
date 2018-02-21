@@ -1,6 +1,6 @@
 package com.curso.springframework.didemo.controllers;
 
-import com.curso.springframework.didemo.services.GreetingServiceImpl;
+import com.curso.springframework.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 
