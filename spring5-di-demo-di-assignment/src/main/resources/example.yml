@@ -1,0 +1,34 @@
+#comments
+
+name: Manolo
+
+names: #comment
+    - John
+    - Paul
+    - Ringo
+
+pound_sign: "#"
+
+book:
+    author: Joe Buck
+    publisher: random
+
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no
+
+string_val: "This is it's quote"
+
+include_new_lines: |
+  sdlfkasl asdjfh jsdhfk
+  sdfhajksdh sadkjfh kjh
+  fsjdh dskjfhkjs ksjdkd
+
+ignore_new_lines: >
+  jkkds sdklj skl
+  sdjk skdj slkd
+  sdkjk skds sl k

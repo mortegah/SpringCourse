@@ -1,0 +1,10 @@
+jms:
+  username: jms user yml
+  password: passjms
+  url: urljms
+
+---
+spring:
+  profiles: de
+jms:
+  username: jms german
